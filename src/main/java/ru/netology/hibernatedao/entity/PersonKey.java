@@ -1,5 +1,6 @@
 package ru.netology.hibernatedao.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -8,6 +9,7 @@ import java.io.Serializable;
 
 @Embeddable
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class PersonKey implements Serializable {
 
